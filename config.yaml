@@ -1,0 +1,26 @@
+# File: fuzzer/config.yaml
+
+target_ip: "192.168.1.1"
+target_port: 445
+ip_version: 4
+fuzz_fields:
+  - sport
+  - dport
+  - seq
+  - ack
+  - dataofs
+  - reserved
+  - flags
+  - window
+  - chksum
+  - urgptr
+num_requests: 1000
+interval: 0.1
+timeout: 3.0
+payload_file: "default_payloads.json"
+log_file: "fuzzer.log"
+log_level: "INFO"
+health_check_interval: 0
+concurrency: 5
+hardcore_mode: true
+stats_interval: 3  # Interval in seconds for reporting statisti

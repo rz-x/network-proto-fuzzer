@@ -1,0 +1,5 @@
+[
+    {"payload": "fuzz1", "pattern": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"},
+    {"payload": "fuzz2", "pattern": "\\x00\\x01\\x02\\x03\\x04"},
+    {"payload": "fuzz3", "pattern": "\\xDE\\xAD\\xBE\\xEF"}
+]
